@@ -2,12 +2,13 @@
 using namespace std;
 
 int main(){
-    // Pattern Practise 1
-    // * * * * * * *
-    // * * * * * * *
-    // * * * * * * *
-    // * * * * * * *
-    // * * * * * * *
+    // Pattern Practise 2
+    // 1 1 1 1 1 1
+    // 2 2 2 2 2 2
+    // 3 3 3 3 3 3
+    // 4 4 4 4 4 4
+    // 5 5 5 5 5 5
+    // 6 6 6 6 6 6
 
     int row, col, n;
     cout << "Enter n: ";
@@ -15,7 +16,7 @@ int main(){
 
     for(row = 1; row <= n; row++){
         for(col = 1; col <= n; col++){
-            cout << "* ";
+            cout << row << " ";
         }
         cout << endl;
     }

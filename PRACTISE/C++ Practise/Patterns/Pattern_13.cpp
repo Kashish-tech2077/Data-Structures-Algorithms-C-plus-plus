@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    // Pattern Practise 13
+    // 1 2 3 4 5 6
+    // 1 2 3 4 5
+    // 1 2 3 4
+    // 1 2 3
+    // 1 2
+    // 1
+
+    int row, col, n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    for(row = 5; row >= 1; row--){
+        for(col = 1; col <= row; col++){
+           cout << col << " ";
+        }
+        cout << endl;
+    }
+}
