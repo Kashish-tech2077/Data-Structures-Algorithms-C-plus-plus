@@ -21,5 +21,5 @@ int main()
         
         mul *= 10;
     }
-    cout << ans << endl;
+    cout << "Octal Number:" << ans << endl;
 }

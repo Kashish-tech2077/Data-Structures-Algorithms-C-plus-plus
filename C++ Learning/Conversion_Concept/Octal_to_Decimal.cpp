@@ -21,5 +21,5 @@ int main()
         
         mul *= 8;
     }
-    cout << ans << endl;
+    cout << "Decimal Number: " << ans << endl;
 }

@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     // Program to convert Decimal Number to Binary Number
-    
+
     int num;
-    cout << "Enter the value of num: ";
+    cout << "Enter Decimal Number: ";
     cin >> num;
     int rem, ans = 0, mul = 1;
 
@@ -21,5 +21,5 @@ int main()
         // Multiply Update
         mul = mul*10;
     }
-    cout << ans << endl;
+    cout << "Binary Number: " << ans << endl;
 }

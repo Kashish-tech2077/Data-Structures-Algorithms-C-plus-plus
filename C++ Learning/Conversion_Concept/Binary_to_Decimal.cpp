@@ -7,7 +7,7 @@ int main()
 
     int num;
     int ans = 0, rem, mul = 1;
-    cout << "Enter num: ";
+    cout << "Enter Binary Number: ";
     cin >> num;
 
     while(num > 0)
@@ -21,5 +21,5 @@ int main()
         
         mul *= 2;
     }
-    cout << ans << endl;
+    cout << "Decimal Number: " << ans << endl;
 }
