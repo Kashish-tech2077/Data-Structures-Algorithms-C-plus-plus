@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void Incr(int n){
+void Incr(int n)
+{
     n++;
 }
 
