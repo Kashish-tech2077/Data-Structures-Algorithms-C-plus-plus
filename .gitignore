@@ -5,7 +5,7 @@
 *.log
 
 # .vscode Directory is ignored
-*.vscode
+.vscode/
 
 # All Replit Files Ignored
 .ccls-cache/
