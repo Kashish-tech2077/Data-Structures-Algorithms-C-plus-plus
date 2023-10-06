@@ -3,4 +3,4 @@
 *.vscode
 .ccls-cache/
 *.replit
-.replit.nix
+replit.nix
