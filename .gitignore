@@ -1,6 +1,13 @@
+# All .exe Files are ignored
 *.exe
+
+# All .log Files are ignored
 *.log
+
+# .vscode Directory is ignored
 *.vscode
+
+# All Replit Files Ignored
 .ccls-cache/
-*.replit
+.replit
 replit.nix
