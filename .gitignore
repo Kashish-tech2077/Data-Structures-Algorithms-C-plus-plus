@@ -1,6 +1,6 @@
 *.exe
 *.log
 *.vscode
-ccls-cache/
+.ccls-cache/
 *.replit
 *replit.nix
