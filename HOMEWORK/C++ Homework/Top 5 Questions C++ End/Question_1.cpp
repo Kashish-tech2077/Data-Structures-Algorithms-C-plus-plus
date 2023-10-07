@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Program of Distribute Circle
 int DistributeCircle(int A, int B, int C)
 {
     int n = (A + C - 1) % B;
@@ -11,9 +12,8 @@ int DistributeCircle(int A, int B, int C)
     return n;
 }
 
-int main(){
-
+int main()
+{
     // Function Call
     cout << DistributeCircle(2, 5, 8);
-
 }
