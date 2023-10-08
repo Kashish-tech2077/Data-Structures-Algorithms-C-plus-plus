@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Omit array size
+
 int main()
 {
     // In C++, you don't have to specify the size of the array. The compiler is smart enough to determine the size of the array based on the number of inserted values:
@@ -17,7 +19,7 @@ int main()
     Companies[0]= "Google";
     Companies[1]= "Facebook";
     Companies[2]= "Paytm";
-    
+
     cout << Companies[0] <<endl;
     cout << Companies[1] <<endl;
     cout << Companies[2] <<endl;

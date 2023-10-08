@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Looping through Arrays with for loop
+
 int main()
 {
     string companies[5] = {"Meta", "Google", "Apple", "Microsoft", "Amazon"};
